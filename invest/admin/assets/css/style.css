@@ -1,0 +1,32 @@
+.currentSpan{
+	width: 37.7%;
+    background: #7cb342;
+    height: 1%;
+    margin: 51px 0;
+    position: absolute;
+    z-index: 1;
+}
+.otherTab{
+	background: #fdfdfd;
+	text-transform: uppercase;
+	height: 40px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+	box-shadow:0 0px 0px 0 rgba(0,0,0,.14), 0 0px 0px 0px rgba(0,0,0,.2),
+	-1px 0px 0px 0 rgba(0,0,0,.12)
+}
+.otherTab:hover {
+    background-color: #ddd;
+}
+.activeTab{
+	text-transform: uppercase;
+	height: 40px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+}
+.itemStat:hover {
+    background-color: #ddd;
+}
+.itemStat {cursor: pointer;}

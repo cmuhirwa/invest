@@ -1,0 +1,37 @@
+select sum(`rtgs`.`transactions`.`amount`) AS `Balance`,`rtgs`.`transactions`.`forGroupId` AS `groupId`,`rtgs`.`transactions`.`to_from_account` AS `to_from_account` from `rtgs`.`transactions` where ((`rtgs`.`transactions`.`operation` = 'credit') and (`rtgs`.`transactions`.`status` = 'APPROVED')) group by `rtgs`.`transactions`.`forGroupId`
+CrowdFunding
+V1.0 : 07 04 2017 Semi Launch			FM($80)
+V1.1 : 15 04 2017						FM($80)
+V1.2 : 01 05 2017 Full Launch	$4,000	FM($320)
+V1.3 : 01 06 2017 				$3,000	FM($80)
+V1.4 : 01 07 2017 				$4,000	FM($80)
+V1.5 : 01 08 2017				$5,000	FM($160)
+V1.6 : 01 09 2017	Uganda	Open Branch	FM($320)			
+V1.7 : 01 10 2017				$10,000	FM($320)
+V1.8 : 01 11 2017	Kenya	Open Branch FM($320)
+V1.9 : 01 12 2017				$30,000 FM($320)
+V2.0 : 01 01 2018	Tanznia	Open Branch FM($320)
+
+Churches
+V1.0 (Beta)	: 01 05 2017 Testing On church
+V1.0 (Beta2): 01 06 2017 Testing On church
+V1.0 : 01 07 2017 	Launch	1 Church
+V1.1 : 15 07 2017			2 Churches
+V1.2 : 01 08 2017			0 Church
+V1.3 : 15 08 2017			2 Churches
+V1.4 : 01 09 2017	Uganda	Open Branch		
+V1.5 : 15 09 2017	Uganda	1 Church
+V1.6 : 01 10 2017	Uganda	2 Churches
+V1.7 : 01 10 2017	Kenya	Open Branch
+V1.8 : 01 10 2017	Kenya	1 Church
+V1.9 : 01 10 2017	Kenya	2 Cherches
+V2.0 : 01 10 2017	Tanznia	Open Branch
+
+Investments
+Savings Tetine
+Savings VSLA
+
+5 webs (1)
+5 android (0)
+5 ios (0)
+1 ussd (0)

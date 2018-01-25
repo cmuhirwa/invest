@@ -1,0 +1,130 @@
+/*------------------------------------------------------------------
+[Table of contents]
+1. Styles for devices(>1200px)
+2. Styles for devices(>=992px and <=1199px)
+3. Styles for devices(>=768px and <=992px)
+4. Styles for devices(>=481px and <=767px)
+5. Styles for devices(<=480px)
+-------------------------------------------------------------------*/
+
+/*----------------
+
+[1. Styles for devices(>1200px)]
+*/
+@media (min-width: 1201px){
+}
+
+@media (max-width: 1200px){
+	.top-search .form-drop{margin-top: 20px}
+	.cart-block{margin-top: 35px}
+	.main-header{margin-bottom: 0}
+
+
+
+	.watches-home .right-content{width: 100%}
+	.watches-home .left-content{left: -300px; transition: all 0.5s; -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;}
+	.toggle-header{display: block; width: 30px; height: 30px; position: fixed; background-color: #e64339; color: #fff; text-align: center; line-height: 30px; left: 0px; top: 0px; z-index: 99; transition: all 0.5s; -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;}
+	.toggle-header.active{left: 270px; background-color: transparent; animation: }
+	.watches-home .left-content.head-open{left: 0}
+	.toggle-header.active:before{content: "\f00d"; color: #e64339; }
+}
+/*----------------
+[2. Styles for devices(>=993px and <=1200px)]
+*/
+@media (min-width: 993px) and (max-width: 1200px){
+	
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+
+}
+
+@media (max-width: 992px){
+	.watches-home .left-content{overflow-y: scroll; overflow-x: visible;}
+	.left-menu-content ul.dropdown-menu, .box-vertical-megamenus .left-menu-content ul li .custom-dropdown-menu, .box-vertical-megamenus .vertical-menu-list > li.custom-dropdown ul.dropdown-menu{position: static; opacity: 1; visibility: visible; box-shadow: 0 0 0 transparent; transform: translate(0, 0); background-color: transparent; background-image: none; min-width: 100%; padding: 0}
+	.mega-custom-html{display: none;}
+	.box-vertical-megamenus .left-menu-content .custom-dropdown-menu.women{background-image: none;}
+	.custom-dropdown-menu .vertical-groups{background-color: transparent;}
+	.box-vertical-megamenus .vertical-menu-list > li.custom-dropdown .dropdown-menu>li>a{padding: 0 0 0 15px;}
+	.custom-dropdown-menu .vertical-groups .mega-group, .box-vertical-megamenus .left-menu-content .custom-dropdown-menu .box-hovered{padding: 0; width: 100%}
+	.box-vertical-megamenus .vertical-menu-list>li>a, .box-vertical-megamenus .vertical-menu-list > li{clear: both;}
+	.box-vertical-megamenus .vertical-menu-list > li.custom-dropdown.home ul.dropdown-menu{min-width: 100%}
+	.box-vertical-megamenus .left-menu-content ul li a.parent:before{display: none;}
+	.box-vertical-megamenus .vertical-menu-list > li.custom-dropdown > ul.dropdown-menu > li > ul.dropdown-menu{min-width: 100%; box-shadow: 0 0 0 transparent; transform: translate(0, 0);}
+	.mega_dropdown.level1 > .block-container > a, .custom-dropdown-menu .mega-group-header, .box-vertical-megamenus .vertical-menu-list > li.custom-dropdown .dropdown-menu>li.block-container>a{margin: 0; font-size: 14px;
+    color: #4f4f4f; font-weight: 600;
+    line-height: 35px; text-transform: capitalize; border-bottom: 0; padding-left: 15px}
+
+	.box-vertical-megamenus .vertical-menu-list > li.custom-dropdown .dropdown-menu>li.block-container .link_container > a{padding-left: 30px}
+	.box-vertical-megamenus .vertical-menu-list>li:hover{background-color: transparent;}
+	.custom-dropdown-menu .group-link-default > li a{display: block; padding-left: 30px}
+	.page-watches .custom-dropdown-menu .group-link-default > li a{padding-left: 15px; font-weight: 600}
+	.box-vertical-megamenus .vertical-menu-list > li.custom-dropdown.home .dropdown-menu>li>a:after{left: 0}
+
+	/*banner*/
+	.block-banner-home .content .banner-arrow{width: 100%; margin-bottom: 15px}
+	.block-banner-home .content .banner-arrow:last-child{margin-bottom: 0}
+
+	/*Shopping cart*/
+	.cart-block .cart-block-content{    position: static;
+    transform: translate(0,0);
+    visibility: visible;
+    opacity: 1;
+    background-color: transparent;
+    box-shadow: 0 0 0 transparent;
+    width: auto;
+    padding: 5px;}
+    .cart-block .cart{border-bottom: 1px solid #ebebeb; }
+    .cart-block .cart-block-content .product-info .p-left{display: block; margin: 0 auto}
+    .cart-block .cart-block-content .product-info .p-right{display: block; padding-left: 0; padding-top: 20px}
+    .cart-block .cart-block-content .product-info{border-bottom: 1px solid #ebebeb}
+    .cart-block .cart-block-content .product-info:last-child{border-bottom: 0}
+    .cart-block:before, .cart-block:after{display: none; opacity: 0; visibility: hidden;}
+
+
+	.cat-item {margin-bottom: 50px}
+}
+/*--------------------
+[3. Styles for devices(>=768px and <=992px)]
+*/
+@media (min-width: 768px) and (max-width: 992px){
+	.fancybox-wrap{width: 90% !important}
+	.fancybox-inner{width: auto !important; height: auto !important}
+}
+
+@media (max-width: 767px){
+	.watches-home .right-content .margin-page, .footer .main-footer{margin: 0 15px}
+	/*popup newsletter*/
+	.fancybox-wrap{width: 90% !important}
+	.fancybox-inner{width: auto !important; height: auto !important}
+
+	.newsletter{margin-top: 60px}
+	.newsletter .subcribe-box{width: 90%}
+	.newsletter .content .sub-info{width: 80%}
+	.bottom{margin-top: 30px}
+}
+@media (min-width: 640px) and (max-width: 767px){
+
+}
+@media (max-width: 640px){
+	.nav-menu .navbar-label .title span{font-size: 20px; line-height: 25px; padding-bottom: 15px;}
+
+}
+/*--------------------
+[4. Styles for devices(>=481px and <=767px)]
+*/
+
+/*--------------------
+[5. Styles for devices(<=480px)]
+*/
+@media (max-width: 480px){
+	.newsletter .input input{height: 45px; line-height: 43px; padding-right: 95px}
+	.newsletter .input button{font-size: 13px; line-height: 43px; padding: 0 15px}
+}
+
+
+
