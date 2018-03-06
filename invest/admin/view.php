@@ -40,7 +40,7 @@ if(isset($_GET['viewid']))
         <div id="page_content_inner">
 			<table width="100%" >
 				<tr>
-					<td width="10%">Logo</td>
+					<td width="10%"><img src="../assets/images/bnr.jpg"></td>
 					<td width="65%">
 						<center >
 							<h2><b>Central Securities Depository - Rwanda</h2>

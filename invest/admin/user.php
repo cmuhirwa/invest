@@ -1,5 +1,7 @@
 
 <?php
+error_reporting(E_ALL); 
+ini_set('display_errors', 0);
 	if(isset($_POST['addpst']))
 	{
 		$itemName = $_POST['itemName'];
